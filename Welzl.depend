@@ -1,0 +1,103 @@
+# depslib dependency file v1.0
+1456339763 source:g:\victor\c++_project\welzl\main.cpp
+	<chrono>
+	<ctime>
+	<iostream>
+	<limits>
+	<vector>
+	"include/geom/Circle2D.h"
+	"include/utils/FilePointsLoader.h"
+	"include/algorithms/AlgorithmMinCircle.h"
+
+1456271556 source:g:\victor\c++_project\welzl\src\circle2d.cpp
+	<cmath>
+	"../include/Circle2D.h"
+
+1456271609 g:\victor\c++_project\welzl\include\circle2d.h
+	<vector>
+	"Point2D.h"
+
+1456273008 source:g:\victor\c++_project\welzl\src\point2d.cpp
+	<cmath>
+	"../include/Point2D.h"
+
+1456273019 g:\victor\c++_project\welzl\include\point2d.h
+
+1456269303 source:g:\victor\c++_project\welzl\src\algorithmsmallestenclosingcircle.cpp
+	"../include/AlgorithmSmallestEnclosingCircle.h"
+
+1456272205 g:\victor\c++_project\welzl\include\algorithmsmallestenclosingcircle.h
+	"Circle2D.h"
+
+1456272959 source:g:\victor\c++_project\welzl\src\naivealgorithm.cpp
+	<limits>
+	"../include/NaiveAlgorithm.h"
+
+1456272189 g:\victor\c++_project\welzl\include\naivealgorithm.h
+	<AlgorithmSmallestEnclosingCircle.h>
+
+1456273711 source:g:\victor\c++_project\welzl\src\algorithms\algorithmsmallestenclosingcircle.cpp
+	"../../include/algorithms/AlgorithmSmallestEnclosingCircle.h"
+
+1456287939 g:\victor\c++_project\welzl\include\algorithms\algorithmsmallestenclosingcircle.h
+	"../geom/Circle2D.h"
+
+1456331035 g:\victor\c++_project\welzl\include\geom\circle2d.h
+	<iostream>
+	<vector>
+	"Point2D.h"
+
+1456331396 g:\victor\c++_project\welzl\include\geom\point2d.h
+	<iostream>
+	<cmath>
+
+1456322462 source:g:\victor\c++_project\welzl\src\algorithms\naivealgorithm.cpp
+	<limits>
+	"../include/algorithms/NaiveAlgorithm.h"
+
+1456331873 g:\victor\c++_project\welzl\include\algorithms\naivealgorithm.h
+	"AlgorithmSmallestEnclosingCircle.h"
+
+1456333999 source:g:\victor\c++_project\welzl\src\geom\circle2d.cpp
+	<cmath>
+	"../../include/geom/Circle2D.h"
+	"../../include/utils/Tools.h"
+
+1456334016 source:g:\victor\c++_project\welzl\src\geom\point2d.cpp
+	<cmath>
+	"../../include/geom/Point2D.h"
+	"../../include/utils/Tools.h"
+
+1456322462 source:g:\victor\c++_project\welzl\src\utils\filepointsloader.cpp
+	<iostream>
+	<fstream>
+	<string>
+	"../../include/utils/FilePointsLoader.h"
+
+1456278226 g:\victor\c++_project\welzl\include\utils\filepointsloader.h
+	<string>
+	<vector>
+	"../geom/Point2D.h"
+
+1456330244 source:g:\victor\c++_project\welzl\src\utils\tools.cpp
+	<cmath>
+	"../../include/utils/Tools.h"
+
+1456331507 g:\victor\c++_project\welzl\include\utils\tools.h
+	<cmath>
+
+1456331762 source:g:\victor\c++_project\welzl\src\algorithms\welzlalgorithm.cpp
+	"../include/algorithms/WelzlAlgorithm.h"
+
+1456331884 g:\victor\c++_project\welzl\include\algorithms\welzlalgorithm.h
+	"AlgorithmSmallestEnclosingCircle.h"
+
+1456438536 g:\victor\c++_project\welzl\include\algorithms\algorithmmincircle.h
+	"AlgorithmMinCircle.h"
+	"../geom/Circle2D.h"
+
+1456438687 source:g:\victor\c++_project\welzl\src\algorithms\algorithmmincircle.cpp
+	<algorithm>
+	<limits>
+	"../include/algorithms/AlgorithmMinCircle.h"
+
