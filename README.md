@@ -1,4 +1,7 @@
-# Minidisk  (master's degree school project)
+# Minidisk (master's degree school project)
 
-Naive algorithm to compute the minidisk of a set of points (working).  
-Welzl algorithm to compute the minidisk of a set of points (not working yet).
+Algo 1 : Naive algorithm to compute the minidisk of a set of points.  
+Algo 2 : Welzl algorithm to compute the minidisk of a set of points.
+
+Java : Algo 1 and Algo 2 work.
+C++ : Algo 1 work, Algo 2 doesn't work.
